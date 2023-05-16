@@ -32,7 +32,7 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 
 - **prisma/** Contém o arquivo relacionado ao Prisma.
 - **src/** Este diretório contém o código-fonte do seu aplicativo.
-- **erros/** Contém o os arquivos de tratamento de erro global contendo a função e a classe.
-- **routes/** Contém as rotas do Express.
-- **app.ts** Contém a inicialização de um servidor Express.
-- **server.ts** E nesse arquivo que inicia o servidor Express.
+  - **erros/** Contém o os arquivos de tratamento de erro global contendo a função e a classe.
+  - **routes/** Contém as rotas do Express.
+  - **app.ts** Contém a inicialização de um servidor Express.
+  - **server.ts** E nesse arquivo que inicia o servidor Express.
