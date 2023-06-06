@@ -33,9 +33,17 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 ## Estrutura do Projeto
 
 - **prisma/** Contém o arquivo relacionado ao Prisma.
-   -**schema.prisma**  
+  - **schema.prisma**
 - **src/** Este diretório contém o código-fonte do seu aplicativo.
   - **erros/** Contém o os arquivos de tratamento de erro global contendo a função e a classe.
   - **routes/** Contém as rotas do Express.
   - **app.ts** Contém a inicialização de um servidor Express.
   - **server.ts** E nesse arquivo que inicia o servidor Express.
+
+## Eslint
+
+- O projeto já vem com o Eslint configurado, incluindo apenas três regras simples:
+
+1. "semi": ["error", "always"] - Sempre adiciona o ";" no final de cada expressão.
+2. "quotes": ["error", "double"] - Sempre utiliza aspas duplas.
+3. "indent":["error", 2] - Mantém uma indentação de dois espaços.
