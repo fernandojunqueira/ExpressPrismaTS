@@ -20,6 +20,8 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 1. Crie um arquivo .env na raiz do projeto com as seguintes variáveis de ambiente:
    `DB_URL=postgresql://user:password@localhost:5432/database`
 2. Crie suas entidades dentro da pasta prisma no arquivo schema.prisma
+3. Depois de o comando `npx prisma migrate dev`
+4. De o comando `npx prisma studio` para ver como ficou suas migrações.
 
 ## Uso
 
@@ -31,6 +33,7 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 ## Estrutura do Projeto
 
 - **prisma/** Contém o arquivo relacionado ao Prisma.
+   -**schema.prisma**  
 - **src/** Este diretório contém o código-fonte do seu aplicativo.
   - **erros/** Contém o os arquivos de tratamento de erro global contendo a função e a classe.
   - **routes/** Contém as rotas do Express.
